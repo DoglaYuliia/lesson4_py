@@ -47,7 +47,7 @@ else:
 
 my_string = '0123456789'
 new_list = []
-for symbol in my_string:
+for symbol1 in my_string:
     for symbol2 in my_string:
-        new_list.append(symbol + symbol2)
+        new_list.append(int(symbol1 + symbol2))
 print(new_list)
